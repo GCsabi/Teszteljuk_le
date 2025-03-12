@@ -1,0 +1,27 @@
+{
+  "name": "teszteljuk_le",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCsabi/Teszteljuk_le.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GCsabi/Teszteljuk_le/issues"
+  },
+  "homepage": "https://github.com/GCsabi/Teszteljuk_le#readme",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@types/cucumber": "^6.0.1",
+    "playwright": "^1.51.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
