@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,6 @@
   "homepage": "https://github.com/GCsabi/Teszteljuk_le#readme",
   "description": "",
   "dependencies": {
-    "@cucumber/cucumber": "^11.2.0",
-    "@types/cucumber": "^6.0.1",
     "playwright": "^1.51.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
