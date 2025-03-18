@@ -2,7 +2,7 @@
   "name": "teszteljuk_le",
   "version": "2.0.0",
   "scripts": {
-    "test": "playwright test",
+    "test": "playwright test&&npx playwright show-report",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report"
