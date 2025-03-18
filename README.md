@@ -1,3 +1,19 @@
+# Tree View:
+```
+.
+├─README.md
+├─codebase.md
+├─package-lock.json
+├─package.json
+├─playwright.config.ts
+├─tests
+│ ├─pages
+│ │ └─teszteljukle.page.ts
+│ └─specs
+│   └─teszteljukle.spec.ts
+└─tsconfig.json
+```
+
 Hogyan használd a projektet:
 
 miután beimportáltad, installáld a függőségeket:
