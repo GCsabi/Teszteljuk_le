@@ -13,7 +13,7 @@ Given('megnyitom a Chrome böngészőt az Android emulátorban', async function(
 
   // Használjuk a Playwright beépített eszköz-emulációját
   const context = await browser.newContext({
-    ...devices['Pixel 5'], // Vagy más támogatott eszköz
+    //...devices['Pixel 5'], // Vagy más támogatott eszköz
     locale: 'hu-HU'
   });
   page = await context.newPage();

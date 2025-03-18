@@ -11,7 +11,6 @@ export default defineConfig({
     ['list']
   ],
   use: {
-    baseURL: 'https://teszteljukle.hu',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
