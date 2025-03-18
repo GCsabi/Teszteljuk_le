@@ -1,7 +1,6 @@
 {
   "name": "teszteljuk_le",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
