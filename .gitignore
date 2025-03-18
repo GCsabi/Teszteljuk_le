@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+
+node_modules
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+# Test Results
+test-results
+playwright-report
