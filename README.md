@@ -2,7 +2,6 @@
 ```
 .
 ├─README.md
-├─codebase.md
 ├─package-lock.json
 ├─package.json
 ├─playwright.config.ts
