@@ -1,0 +1,10 @@
+{
+    "Positive": {
+      "expectedTitle": "Teszteljük le",
+      "expectedText": "Magyar szoftvertesztelő közösség"
+    },
+    "Negative": {
+        "expectedTitle": "Ne Teszteljük le",
+        "expectedText": "Német szoftvertesztelő közösség"
+      }
+}

@@ -3,5 +3,6 @@ module.exports = {
       requireModule: ['ts-node/register'],
       require: ['features/step_definitions/**/*.ts'],
       format: ['progress', 'summary'],
+      parallel: 2
     }
   };  

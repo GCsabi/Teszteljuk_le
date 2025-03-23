@@ -4,9 +4,11 @@ Jellemző: Mobilweboldal tesztelése Chrome böngészőben
   Mint tesztelő
   Szeretném automatikusan ellenőrizni a weboldal betöltődését és tartalmát
 
-  Forgatókönyv: Weboldal megnyitása és ellenőrzése Android eszközön 
+  Forgatókönyv: Weboldal megnyitása és ellenőrzése Android eszközön - pozitív eset 
     Amennyiben megnyitom a Chrome böngészőt az Android emulátorban 
     És betöltöm a 'https://teszteljukle.hu' weboldalt
     Akkor a weboldal címének tartalmaznia kell "Teszteljük le"
     És az oldalon lennie kell "Magyar szoftvertesztelő közösség" szövegnek
+    Akkor a weboldal címének nem kell tartalmaznia "Ne Testeljuk le"
+    És az oldalon nem kell lennie "Német szoftvertesztelő közösség" szövegnek
     És bezárom a böngészőt
