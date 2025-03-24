@@ -16,7 +16,7 @@ export default defineConfig({
   use: {
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    video: 'on', // 'only-on-failure',
+    video: 'only-on-failure', // 'only-on-failure',
     ignoreHTTPSErrors: true
   },
   projects: [
