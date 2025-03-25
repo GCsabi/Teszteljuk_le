@@ -8,5 +8,6 @@ export class TeszteljuklePage {
   }
 
   titleMessage = this.page.locator('.title');
-  textMessage = this.page.locator('//*[@id="project-modules"]/div[2]/div/div/div/div/div/div/div/div/div/span')
+  textMessage = this.page.locator('//*[@id="project-modules"]//span[contains(., "Magyar szoftvertesztelő közösség")]');
+  Button = this.page.locator('.button-module');
 }
